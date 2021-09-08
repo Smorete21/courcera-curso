@@ -1,0 +1,40 @@
+*{padding: 0; margin: 0;} 
+
+
+header { width: 100%; height: 120px ; background-color: firebrick;}
+.logo3c img {width: 30%; height: 120px; opacity: 1.0;} 
+
+
+nav {position: absolute; right: 120px; top: 50px;}
+nav ul li {float: left; width: auto; margin: 0.8em; font-size: 1.5em; font-family: 'verdana'; font-color: #8B0000; list-style: none; }
+nav ul li a {text-decoration: none; color: #bbb; }
+nav ul li a:link {color: yellowgreen; }
+nav ul li a:visited {color: red; }
+nav ul li a:hover {color: white;} 
+nav ul li a:active {color: blue;}
+
+section {text-align: center; }
+
+p {color: black; font-size: 30px; }
+
+#Apresentação { width: 100%; height: 300px; background-color: lightcyan;}
+#Apresentação p  { font-size: 30px; padding-top: 50px; 
+  margin-right: 100px;
+  margin-left: 80px;} 
+#Apresentação img{ width: 50%; height: 300px; float: left; border-radius: 80%; } 
+
+#Sobre {background-color: seagreen;}
+
+#Serviços {font-style: italic; background-color: green;}
+
+#Clientes { background-color: silver; width: 100%; height: 250px; }
+#Clientes ul li {list-style: none; float: left; padding: 8px; margin-left: 50px; margin-right: 50px; 
+        font-size: 15px; display: block;  }
+#Clientes ul li a:link {color:  red; text-decoration: none;}
+#Clientes ul li a:visited {color: black; }
+#Clientes ul li a:hover {color: white;} 
+#Clientes ul li a:active {color: blue;}
+
+#Contatos {background-color: firebrick;}
+
+footer { text-align: center; font-style: unset; font-family: fantasy; color: burlywood; background-color: lightcyan;}
